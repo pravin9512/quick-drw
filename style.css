@@ -1,0 +1,50 @@
+body{
+    background-color: rgb(116, 185, 14);
+  }
+  
+  h1
+  {
+     font-weight: bold;
+    color:rgb(255, 255, 255);
+    background-color: rgb(14, 176, 221);
+  }
+  
+  #show_sketch
+  {
+    float:right;
+  }
+  
+  #timer{
+    float: right;
+  }
+  
+  #sketch_to_be_drawn{
+    color: red;
+  }
+  
+  canvas 
+    {
+      border:2px solid white;
+      border-radius:20px;
+      margin-top:135px;
+      box-shadow:5px 5px 5px grey;
+      box-shadow: 1px 1px 38px #ffffff;
+      animation-name: example;
+      animation-duration: 4s;
+      animation-iteration-count: infinite;
+  }
+  @keyframes example {
+  
+    from {box-shadow: 1px 1px 38px rgb(27, 234, 241);}
+    to {box-shadow: 1px 1px 38px rgb(89, 255, 89);}
+  
+  }
+  
+  
+  p, span
+  {
+      padding-top:10px;
+      font-weight: bold;
+      font-size:25px;
+      color: whitesmoke;
+  }
